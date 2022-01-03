@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Home Page - WOTC</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" id="logo">WOTC</a>
+      <nav>
+        <ul>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="jumbotron">
+        <article class="about-container">
+          <h1>WOTC Tax Credits</h1>
+          <h2>a better way to administer</h2>
+
+          <p>
+            The Work Opportunity Tax Credit (WOTC) is a federal tax credit
+            available to employers' hiring individuals who consistently face
+            significant barriers to employment. WOTC was created to benefit job
+            seekers and employers. While it is a federal program created by the
+            IRS, it is administered at the state level by the Department of
+            Workforce Development <a href="#">learn more</a>.
+          </p>
+          <figure>
+            <img
+              src="/images/illustration_saving_stock_tax.png"
+              alt="Saving money on taxes"
+            />
+          </figure>
+        </article>
+        <article class="form-login">
+          <form action="/" method="POST">
+            <h3>Login</h3>
+            <ul>
+              <li>
+                <label for="email"
+                  >Email <small>&#40;Required&#41;</small></label
+                >
+                <input type="email" name="email" id="email" required />
+              </li>
+              <li>
+                <label for="password"
+                  >Password <small>&#40;Required&#41;</small></label
+                >
+                <input type="password" name="password" id="password" required />
+              </li>
+              <li>
+                <a href="#">View Data Confidentiality Agreement</a>
+                <input
+                  type="checkbox"
+                  name="accept-terms"
+                  id="accept-terms"
+                  value="accept-terms"
+                  required
+                />
+                <label for="accept-terms"
+                  >I have read and I understand the Data Confidentiality
+                  Agreement</label
+                >
+              </li>
+            </ul>
+            <button>Log In</button>
+            <a href="#">Forgot Password</a>
+          </form>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

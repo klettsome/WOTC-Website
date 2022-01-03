@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Noto+Serif:wght@700&family=Spline+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Spline Sans', sans-serif;
+  background-color: #f2f4f7;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  display: block;
+  font: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+  height: 8vh;
+  width: 100vw;
+  background-color: #293241;
+}
+
+#logo {
+  color: #ffd20a;
+  font-family: 'Domine', serif;
+  font-size: 1.9rem;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  text-shadow: 4px 3px 0 #353535;
+}
+
+header nav ul {
+  width: 18.75rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  color: #f8ffff;
+  letter-spacing: 1px;
+  transition: all 0.1s ease-in-out;
+}
+
+header nav a:hover {
+  color: #ffd20a;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  color: #293241;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.about-container {
+  width: 50%;
+  padding: 50px;
+  text-align: center;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.about-container h1 {
+  margin: 60px 0 20px 0;
+  font-size: 60px;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+.about-container h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.about-container a {
+  color: #0166fd;
+  transition: all 0.1s ease-in-out;
+}
+
+.about-container a:hover {
+  color: #2a9fff;
+}
+
+.about-container figure {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.about-container img {
+  width: 100%;
+}
+
+.form-login {
+  width: 50%;
+}
