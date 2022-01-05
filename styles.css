@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: 'Spline Sans', sans-serif;
   background-color: #f2f4f7;
+  overflow: hidden;
 }
 
 ul {
@@ -36,7 +37,7 @@ header {
 }
 
 #logo {
-  color: #ffd20a;
+  color: #eb600f;
   font-family: 'Domine', serif;
   font-size: 1.9rem;
   letter-spacing: 5px;
@@ -65,20 +66,20 @@ header nav a:hover {
   justify-content: space-between;
   height: 80vh;
   color: #293241;
-  font-size: 18px;
+  font-size: 1.12rem;
   line-height: 1.4;
 }
 
 .about-container {
   width: 50%;
-  padding: 50px;
+  padding: 3.12rem;
   text-align: center;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .about-container h1 {
-  margin: 60px 0 20px 0;
-  font-size: 60px;
+  margin: 3.75rem 0 1.25rem 0;
+  font-size: 3.75rem;
   font-family: 'Noto Serif', serif;
   letter-spacing: 3px;
   text-transform: capitalize;
@@ -90,17 +91,17 @@ header nav a:hover {
 }
 
 .about-container a {
-  color: #0166fd;
+  color: #eb600f;
   transition: all 0.1s ease-in-out;
 }
 
 .about-container a:hover {
-  color: #2a9fff;
+  color: #fc8e4f;
 }
 
 .about-container figure {
   margin: 0 auto;
-  width: 400px;
+  width: 21.9rem;
 }
 
 .about-container img {
@@ -109,4 +110,85 @@ header nav a:hover {
 
 .form-login {
   width: 50%;
+}
+
+.form-login section {
+  margin-bottom: 1.5rem;
+}
+
+.form-login form {
+  width: 25rem;
+  margin: 15% auto 0 auto;
+  padding: 1.25rem;
+  background: #dee6eb;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-login h3 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.form-login li {
+  padding: 0.5rem 0;
+}
+
+.form-login input {
+  width: 100%;
+  margin: 0.3rem 0;
+  border-radius: 4px;
+  border: 1px solid #dee6eb;
+}
+
+.form-login input:focus {
+  background: #f1faff;
+  border: 1px solid #f1faff;
+}
+
+#confident-agree {
+  margin-bottom: 0.5rem;
+}
+
+.inline-control {
+  display: flex;
+}
+
+.inline-control input {
+  width: auto;
+  margin-right: 5px;
+}
+
+.form-login button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.93rem;
+  padding: 0.62rem 0;
+  border-radius: 5px;
+  font-size: inherit;
+  background-color: #293241;
+  border: 1px solid #293241;
+  color: #f8ffff;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.form-login button:hover {
+  background-color: #3d495e;
+}
+
+.form-login a {
+  display: inline-block;
+  color: #0f408a;
+  font-size: 1.1rem;
+}
+
+.form-login a:hover {
+  color: #165abe;
+}
+
+footer {
+  height: 12vh;
+  background: #293241;
 }

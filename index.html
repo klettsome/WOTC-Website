@@ -41,40 +41,52 @@
         </article>
         <article class="form-login">
           <form action="/" method="POST">
-            <h3>Login</h3>
-            <ul>
-              <li>
-                <label for="email"
-                  >Email <small>&#40;Required&#41;</small></label
-                >
-                <input type="email" name="email" id="email" required />
-              </li>
-              <li>
-                <label for="password"
-                  >Password <small>&#40;Required&#41;</small></label
-                >
-                <input type="password" name="password" id="password" required />
-              </li>
-              <li>
-                <a href="#">View Data Confidentiality Agreement</a>
-                <input
-                  type="checkbox"
-                  name="accept-terms"
-                  id="accept-terms"
-                  value="accept-terms"
-                  required
-                />
-                <label for="accept-terms"
-                  >I have read and I understand the Data Confidentiality
-                  Agreement</label
-                >
-              </li>
-            </ul>
-            <button>Log In</button>
-            <a href="#">Forgot Password</a>
+            <section>
+              <h3>Login</h3>
+              <ul>
+                <li>
+                  <label for="email"
+                    >Email <small>&#40;Required&#41;</small></label
+                  >
+                  <input type="email" name="email" id="email" required />
+                </li>
+                <li>
+                  <label for="password"
+                    >Password <small>&#40;Required&#41;</small></label
+                  >
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    required
+                  />
+                </li>
+              </ul>
+            </section>
+            <section id="confident-agree">
+              <a href="#">View Data Confidentiality Agreement</a>
+            </section>
+            <section class="inline-control">
+              <input
+                type="checkbox"
+                name="accept-terms"
+                id="accept-terms"
+                value="accept-terms"
+                required
+              />
+              <label for="accept-terms"
+                >I have read and I understand the Data Confidentiality
+                Agreement</label
+              >
+            </section>
+            <section>
+              <button>Log In</button>
+              <a href="#">Forgot Password</a>
+            </section>
           </form>
         </article>
       </section>
     </main>
+    <footer></footer>
   </body>
 </html>
